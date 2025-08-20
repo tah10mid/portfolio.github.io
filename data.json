@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "title": "Interactive Weather App",
+      "summary": "A beautiful, responsive weather application with real-time data, 5-day forecasts, geolocation support, and smooth animations. Features auto-background changes based on weather conditions.",
+      "tags": ["Weather API", "JavaScript", "Responsive Design", "Geolocation", "CSS Animations"],
+      "demo": "./weather.html",
+      "source": "https://github.com/tah10mid/your-repo-name",
+      "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "title": "Weather Website (Previous)",
+      "summary": "A modern weather app that shows real-time weather and 5-day forecasts with animated effects and responsive design.",
+      "tags": ["Weather", "API", "JavaScript", "Responsive"],
+      "demo": "https://tah10mid.github.io/tah10mid-.github.io/",
+      "source": "https://github.com/tah10mid/tah10mid-.github.io",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "title": "Seat Availability Monitor",
+      "summary": "A real-time seat availability monitoring system using live JSON data, featuring a clean UI with auto-refresh functionality for tracking seat status.",
+      "tags": ["Real-time Data", "JavaScript", "UI/UX", "JSON API"],
+      "demo": "./seat monitor/seat-availability-monitor/",
+      "source": "https://github.com/tah10mid/seat-monitor",
+      "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "title": "Portfolio Website",
+      "summary": "A modern, responsive portfolio website showcasing my projects and skills. Built with clean HTML, CSS, and JavaScript featuring smooth animations and professional design.",
+      "tags": ["Portfolio", "Responsive", "CSS Grid", "Modern Design"],
+      "demo": "./portfolio.html",
+      "source": "https://github.com/tah10mid/your-repo-name",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80"
+    }
+  ]
+}
