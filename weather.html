@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App (Static)</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 420px;
+            width: 100%;
+            background: rgba(255,255,255,0.95);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(102,166,255,0.18);
+            padding: 40px 32px 32px 32px;
+            text-align: center;
+            position: relative;
+        }
+        h1 {
+            margin-bottom: 28px;
+            color: #2d3a4a;
+            font-size: 2.2rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .weather-info {
+            margin-top: 18px;
+            padding: 24px 18px;
+            background: #f7fbff;
+            border-radius: 14px;
+            box-shadow: 0 2px 8px rgba(102,166,255,0.08);
+            font-size: 1.1rem;
+            color: #2d3a4a;
+            min-height: 120px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+        }
+        .weather-icon {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 10px;
+        }
+        .forecast {
+            margin-top: 24px;
+            padding: 18px 12px;
+            background: #eaf6ff;
+            border-radius: 14px;
+            box-shadow: 0 2px 8px rgba(102,166,255,0.08);
+            font-size: 1rem;
+            color: #2d3a4a;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            justify-content: center;
+        }
+        .forecast-day {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(102,166,255,0.06);
+            padding: 10px 14px;
+            min-width: 100px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+        .forecast-icon {
+            width: 40px;
+            height: 40px;
+        }
+        /* Example sun effect */
+        .sun {
+            position: absolute;
+            top: 40px; right: 40px;
+            width: 80px; height: 80px;
+            background: radial-gradient(circle, #fff700 60%, #ffe066 100%);
+            border-radius: 50%;
+            box-shadow: 0 0 40px 10px #fff70088;
+            z-index: 2;
+            animation: sun-glow 2s ease-in-out infinite alternate;
+        }
+        @keyframes sun-glow {
+            0% { box-shadow: 0 0 40px 10px #fff70088; }
+            100% { box-shadow: 0 0 60px 20px #fff700cc; }
+        }
+        @media (max-width: 500px) {
+            .container {
+                padding: 18px 8px;
+            }
+            .weather-info {
+                padding: 12px 6px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App (Static)</h1>
+        <div class="sun"></div>
+        <div class="weather-info">
+            <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="Weather icon" class="weather-icon" />
+            <div class="label">Weather for Dhaka, BD</div>
+            <div>Weather is: <b>clear sky</b></div>
+            <div>Current temperature: <b>30.5 °C</b></div>
+            <div>Current Temperature feels like: <b>33.2 °C</b></div>
+            <div>Humidity: <b>60 %</b></div>
+        </div>
+        <div class="forecast">
+            <div class="forecast-day">
+                <div>Mon, Aug 12</div>
+                <img src="https://openweathermap.org/img/wn/01d@2x.png" class="forecast-icon" alt="icon" />
+                <div><b>31°C</b></div>
+                <div>clear sky</div>
+            </div>
+            <div class="forecast-day">
+                <div>Tue, Aug 13</div>
+                <img src="https://openweathermap.org/img/wn/02d@2x.png" class="forecast-icon" alt="icon" />
+                <div><b>32°C</b></div>
+                <div>few clouds</div>
+            </div>
+            <div class="forecast-day">
+                <div>Wed, Aug 14</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" class="forecast-icon" alt="icon" />
+                <div><b>29°C</b></div>
+                <div>light rain</div>
+            </div>
+            <div class="forecast-day">
+                <div>Thu, Aug 15</div>
+                <img src="https://openweathermap.org/img/wn/03d@2x.png" class="forecast-icon" alt="icon" />
+                <div><b>30°C</b></div>
+                <div>scattered clouds</div>
+            </div>
+            <div class="forecast-day">
+                <div>Fri, Aug 16</div>
+                <img src="https://openweathermap.org/img/wn/13d@2x.png" class="forecast-icon" alt="icon" />
+                <div><b>28°C</b></div>
+                <div>snow</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
