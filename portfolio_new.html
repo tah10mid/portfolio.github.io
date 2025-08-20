@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tahmidul Islam — Portfolio</title>
+  <meta name="description" content="Portfolio of Tahmidul Islam - Python Developer & AI Enthusiast" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css" />
+  <script defer src="script.js"></script>
+  <link rel="icon" href="f.png" />
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#home" class="brand">Tahmidul<span>Islam</span></a>
+      <button class="nav-toggle" aria-label="Open Menu" id="navToggle">☰</button>
+      <nav id="siteNav" class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/tah10mid" target="_blank" rel="noreferrer" class="social-icon" title="GitHub">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/tahmidul-islam-39606029a/" target="_blank" rel="noreferrer" class="social-icon" title="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+        </a>
+        <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">🎨</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Tahmidul <span class="accent">Islam</span></h1>
+        <p class="lead">
+          Python Developer and AI Enthusiast passionate about creating innovative solutions and building the future with code.
+        </p>
+        <div class="cta">
+          <a href="#projects" class="btn primary">View My Work</a>
+          <a href="#contact" class="btn ghost">Get In Touch</a>
+        </div>
+        <ul class="social">
+          <li><a href="https://github.com/tah10mid" target="_blank" rel="noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/tahmidul-islam-39606029a/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+          <li><a href="mailto:tahmidislamsamit@gmail.com">Email</a></li>
+        </ul>
+      </div>
+      <div class="hero-art">
+        <img src="profile.png.png" alt="Tahmidul Islam" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section tint">
+    <div class="container">
+      <h2>About Me</h2>
+      <p class="section-lead">
+        Passionate about creating elegant solutions to complex problems through code and innovation.
+      </p>
+      <div class="grid-2">
+        <div class="about-card">
+          <h3>Who I Am</h3>
+          <p>
+            I'm a Python developer and AI enthusiast with a passion for problem-solving and continuous learning. When I'm not coding, you'll find me hitting the gym or on the cricket field.
+          </p>
+          <p>
+            I enjoy taking on challenging problems and developing innovative solutions. Whether it's building web applications or solving complex algorithms, I'm always excited to grow and innovate.
+          </p>
+        </div>
+        <div class="about-card">
+          <h3>Quick Facts</h3>
+          <ul class="keyfacts">
+            <li><strong>Location:</strong> Panthapath, Dhaka</li>
+            <li><strong>Email:</strong> tahmidislamsamit@gmail.com</li>
+            <li><strong>Focus:</strong> Python Development & AI</li>
+            <li><strong>Open to:</strong> Freelance & Collaboration</li>
+          </ul>
+          <a class="btn primary" href="mailto:tahmidislamsamit@gmail.com">Let's Connect</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills & Technologies</h2>
+      <p class="section-lead">
+        Technologies and tools I work with to bring ideas to life.
+      </p>
+      <div class="chips">
+        <span class="chip">Python</span>
+        <span class="chip">HTML5</span>
+        <span class="chip">CSS3</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">SQL</span>
+        <span class="chip">Git</span>
+        <span class="chip">AI/ML</span>
+        <span class="chip">Web Development</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section tint">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <p class="section-lead">A showcase of my recent work and personal projects.</p>
+      <div id="projects-container" class="cards">
+        <!-- Projects loaded from data.json -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Let's Work Together</h2>
+      <p class="section-lead">
+        Ready to start your next project? Let's discuss how we can bring your ideas to life.
+      </p>
+      <div class="grid-2">
+        <div class="contact-card">
+          <h3>Get In Touch</h3>
+          <p>Have a project or role in mind? I'd love to hear about it and discuss how I can help.</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:tahmidislamsamit@gmail.com">tahmidislamsamit@gmail.com</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/tah10mid" target="_blank" rel="noreferrer">github.com/tah10mid</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/tahmidul-islam-39606029a/" target="_blank" rel="noreferrer">linkedin.com/in/tahmidul-islam</a></li>
+          </ul>
+          <a class="btn primary" href="mailto:tahmidislamsamit@gmail.com">Send Message</a>
+        </div>
+        <div class="contact-card">
+          <h3>What I Can Help With</h3>
+          <ul class="keyfacts">
+            <li><strong>Web Development:</strong> Modern, responsive websites</li>
+            <li><strong>Python Applications:</strong> Custom software solutions</li>
+            <li><strong>AI & Machine Learning:</strong> Intelligent systems</li>
+            <li><strong>Automation:</strong> Streamline your workflows</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Tahmidul Islam. All rights reserved.</p>
+      <a href="#home" class="to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+</body>
+</html>
